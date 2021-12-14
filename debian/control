@@ -1,0 +1,15 @@
+Source: vocal-fusion-driver
+Section: unknown
+Priority: optional
+Maintainer: Aditya Mehra <aix.m@outlook.com>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules,
+               pkg-config
+Standards-Version: 3.9.8
+
+Package: vocal-fusion-driver
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Vocal Fusion Drivers.
