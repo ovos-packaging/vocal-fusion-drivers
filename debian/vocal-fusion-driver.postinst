@@ -9,4 +9,6 @@ set -ex
 
 #DEBHELPER#
 
+dh_installmodules
+
 exit 0
